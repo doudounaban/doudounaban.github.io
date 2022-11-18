@@ -1,0 +1,206 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+body{
+    margin: 0px;
+}
+h1{
+    color: tomato;
+}
+
+a{
+    color:blue;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+a:hover{
+    color: orange;
+}
+
+p{
+    border-bottom: 3px solid royalblue;
+    
+}
+
+.top{
+    z-index: 50;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 64px;
+    padding: 0px 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 10px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.top-left{
+    margin-right: auto;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: max-content 1fr max-content;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.top-view{
+    display: block;
+}
+.threeline{
+    width: 32px;
+    height: 32px;
+    background: url(https://raw.githubusercontent.com/doudounaban/my_website/3bc489a46effb1bcdba9c6b2b7df410f41590578/img/view.svg) center center no-repeat;
+}
+.button{
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    outline: 0px;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+}
+.indeximg{
+    background: url(https://image1.gamme.com.tw/news2/2011/56/89/p56Yn6Oakp_W.jpg) center center / 148px 40px no-repeat;
+    width: 148px;
+    height: 40px;
+}
+.top-right{
+    display: block;
+}
+.top-search{
+    position: relative;
+    width: 240px;
+    margin-right: 16px;
+}
+.searchimg{
+    position: absolute;
+    display: block;
+    background-image: url(https://raw.githubusercontent.com/doudounaban/my_website/28b9fede2cd7d2cfb7c71041ecf0299ba9c6700c/img/search.svg);
+    left: 14px;
+    top: 12px;
+    width: 12px;
+    height: 12px;
+}
+.input-search{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 8px 16px 8px 32px;
+    border: 1px solid transparent;
+    background-color: rgb(245, 245, 245);
+    color: rgb(51, 51, 51);
+    appearance: none;
+    outline: none;
+    border-radius: 50px;
+    line-height: 14px;
+    font-size: 14px;
+}
+.center{
+    padding-left: 0px;
+    height: 100%;
+}
+.center-all{
+    position: relative;
+    padding: 64px 0px 40px;
+    min-height: calc((100vh - 64px) - 40px);
+}
+.maininterview{
+    background-color: white;
+}
+.mainbackcolor{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 0;
+    background-color: rgb(239, 200, 231);
+}
+.mainimgset{
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    z-index: 1;
+    width: 100%;
+    
+}
+.mainimg{
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: center center / contain no-repeat;
+}
+.mainsvg{
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+.mainimg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: center center / contain no-repeat;
+}
+
+
+
+
